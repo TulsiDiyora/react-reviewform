@@ -1,0 +1,79 @@
+/* src/App.css */
+
+.form {
+  max-width: 600px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+  background-color: #EBAF70;
+  background-image: url('./assets/BG.jpg');
+  background-position: center;
+  border: 20px solid #b66d1f;
+  box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.5);
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #b66d1f;
+}
+.title{
+  margin-bottom: 50px;
+}
+input, textarea{
+  background-color: #fff8e1;
+  outline: none;
+}
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.review-form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-form label {
+  flex: 1;
+}
+
+.review-form input,
+.review-form textarea,
+.review-form select {
+  flex: 2;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.review-form button {
+  padding: 10px 20px;
+  font-size: 19px;
+  background-color: #fff8e1;
+  color: #31947f;
+  border-radius: 8px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.review-form button:hover {
+  background-color: #31947f;
+  color: #fff8e1;
+}
+
+.reviews-list .review {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.reviews-list .review h3 {
+  margin-top: 0;
+}
